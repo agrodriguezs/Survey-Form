@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tribute Page | Sigmund Freud</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="container">
+    
+  <h1 id="title">Formulario de encuesta</h1>
+  <p id="description">Formulario para conocer tus intereses y poder brindarte información actualizada y de tu interes.</p>
+  <form id="survey-form">
+    <div class="form-group">
+        <label for="name" id="name-label" class="label-negrita">Nombre: </label>
+        <input type="text" id="name" name="name" placeholder="escribe un nombre" class="form-control"  required>
+    </div>
+    <div class="form-group">
+        <label for="email" id="email-label" class="label-negrita">Correo Electrónico: </label>
+        <input type="email" id="email"  class="form-control" name="email" placeholder="escribe tu email" required>
+    </div>
+      <div class="form-group">
+        <label for="number" id="number-label" class="label-negrita">Edad: </label>
+        <input type="number"  class="form-control" id="number" name="number" min=14 max =120 placeholder=14>
+    </div>
+        <div class="form-group">
+        <label for="dropdown" id="dropdown-label" class="label-negrita">Continente: </label>
+       <select id="dropdown"  class="form-control">
+         <option value ="africa">Africa</option>
+          <option value ="america">America</option>
+           <option value ="antartida">Antártida</option>
+         <option value ="asia" selected>Asia</option>
+          <option value ="europa">Europa</option>
+         <option value ="oceania">Oceanía</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <p>Genero:</p>
+      <div class="form-check-inline">
+        <input class="form-check-input" type="radio" value="mujer" id="mujer" name="genero">
+        <label class="form-check-label" for="mujer">Mujer</label>
+      </div>
+  
+       <div class="form-check-inline">
+        <input class="form-check-input" type="radio" id="hombre" value="hombre" name="genero">
+        <label class="form-check-label" for="hombre">Hombre</label>
+      </div>
+    
+      <div class="form-check-inline">
+        <input class="form-check-input" type="radio" value="otro" id="otro" name="genero">
+        <label class="form-check-label" for="otro">Otro</label>
+      </div>
+  
+    </div>
+    <div class="form-group">
+      <p>Selecciona 4 colores</p>
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="amarillo" value="amarillo">
+        <label class="form-check-label" for="amarillo">Amarillo</label>
+      </div>
+  
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="rojo" id="rojo">
+        <label class="form-check-label" for="rojo">Rojo</label>
+      </div>
+  
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="azul" value="azul">
+        <label class="form-check-label" for="azul">Azul</label>
+      </div>
+    
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="rojo" id="rojo">
+        <label class="form-check-label" for="rojo">Rojo</label>
+      </div>
+  
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="verde" id="verde">
+        <label class="form-check-label" for="verde">Verde</label>
+      </div>
+  
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="naranja" id="naranja">
+        <label class="form-check-label" for="naranja">Naranja</label>
+      </div>
+  
+    </div>
+    <div class="form-group">
+      <p>Escribe un resumen de tu personalidad: </p>
+        <textarea rows="3"  class="form-control" cols="20"></textarea>
+    </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="btn btn-success">Enviar Formulario </button>
+    </div>
+  
+  </div>
+     <footer>Responsive Web Design Projects - Build a Survey Form by Adriana Rodriguez</footer>
+
+</body>
+
+</html>

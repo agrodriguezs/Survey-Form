@@ -1,0 +1,42 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:     url(https://images.pexels.com/photos/3862377/pexels-photo-3862377.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container{
+  background-color: #2f3640;
+  padding: 20px;
+  opacity: 0.8;
+  margin: 20px;
+  }
+#title {
+  text-align: center;
+}
+#survey-form p,
+#survey-form .label-negrita {
+  font-weight: 700;
+}
+footer {
+  text-align: center;
+  font-weight: 500;
+  color:  hsl(164, 13%, 97%);
+  padding: 20px;
+}
